@@ -16,7 +16,7 @@ class Bob{
    display(){
 
       push()
-      fill("pink")
+      fill("red")
       ellipseMode(CENTER)
       circle(this.body.position.x,this.body.position.y,this.radius*2)
       pop()
